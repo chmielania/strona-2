@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Nawigacja -->
+    <nav> 
+        <div class="wrap">
+            <div class="logo">LOGO</div>
+            <div class="itemwrap">
+                <a href="">
+                    <div class="item">Główna</div>
+                </a>
+                <a href="#blog">
+                    <div class="item">Blog</div>
+                </a>
+                <a href="#kontakt">
+                    <div class="item">Kontakt</div>
+                </a>
+            </div>
+        </div>
+    </nav>
+<!-- Treść bloga -->
+<main id="blog">
+    <h2>BLOG</h2>
+    <div class="postlist">
+        <a href="recenzjakamyczkow.html">
+            <article>
+                <img src="11.jpg" alt="Kamyczki">
+                <div class="text">
+                    <h3>Recenzja kamyczków</h3>
+                    <div class="data">
+                        <p>27.04.2021</p>
+                    </div>
+                </div>
+                <button>CZYTAJ</button>
+            </article>
+        </a>
+        <a href="Ladnypokoj.html">
+            <article>
+                <img src="22.jpg" alt="Kamyczki">
+                <div class="text">
+                    <h3>Ładny pokój</h3>
+                    <div class="data">
+                        <p>19.04.2021</p>
+                    </div>
+                </div>
+                <button>CZYTAJ</button>
+            </article>
+        </a>
+        <a href="Widok.html">
+            <article>
+                <img src="33.jpg" alt="Kamyczki">
+                <div class="text">
+                    <h3>Widok</h3>
+                    <div class="data">
+                        <p>01.04.2021</p>
+                    </div>
+                </div>
+                <button>CZYTAJ</button>
+            </article>
+        </a>
+    </div>
+</main>
+<!-- Sekcja kontaktowa -->
+<section id="kontakt">
+    <h2>KONTAKT</h2>
+    <img src="pani.jpg" alt="">
+    <form name="Formularz kontaktowy" action="" method="POST" data-netlify="true">
+        <input name="Imię i nazwisko" type="text" placeholder="Imię i nazwisko">
+        <input name="Email" type="email" placeholder="Email">
+        <textarea name="Wiadomość" id="" cols="30" rows="5" placeholder="Wiadomość"></textarea>
+        <input type="submit" value="OK">
+    </form>
+</section>
+<footer>&copy; 2021</footer>
+</body>
+</html>
